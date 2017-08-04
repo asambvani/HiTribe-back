@@ -13,7 +13,7 @@ class ApplicationController < ActionController::Base
   end
 
   def index
-    render :index
+    render json: {message: "TESTING"}
   end
 
 end
